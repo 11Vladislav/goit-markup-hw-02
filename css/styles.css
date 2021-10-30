@@ -1,0 +1,57 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+.lists ul {
+  list-style-type: none;
+}
+.links a {
+  text-decoration: none;
+}
+.webstudio-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.accent-color {
+  color: #2196f3;
+}
+
+.header-list a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-list a:hover,
+.header-list a:focus {
+  color: #2196f3;
+}
+
+.address p,
+.header-list a {
+  font-style: normal;
+  color: #212121;
+}
+
+.connect-us,
+.address a {
+  color: #757575;
+  font-style: normal;
+}
+
+.hero-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pointer {
+  cursor: pointer;
+}
