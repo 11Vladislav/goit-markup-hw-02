@@ -1,3 +1,5 @@
+/* Глобальные стили */
+
 body {
   font-family: Roboto, sans-serif;
   color: #212121;
@@ -8,6 +10,9 @@ body {
 .links a {
   text-decoration: none;
 }
+
+/* Логотип */
+
 .webstudio-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -17,16 +22,17 @@ body {
   color: #212121;
 }
 
-.accent-color {
-  color: #2196f3;
-}
+/* Стили навигации и баннера */
 
-.header-list a {
+.header-list,
+.list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
 }
+
 .hero-heading {
   font-weight: 900;
   font-size: 44px;
@@ -35,13 +41,7 @@ body {
   text-transform: uppercase;
 }
 
-.header-list a:hover,
-.header-list a:focus {
-  color: #2196f3;
-}
-
-.specials {
-}
+/* Стили особенностей */
 
 .specials-heading {
   font-weight: 700;
@@ -51,15 +51,16 @@ body {
   text-transform: uppercase;
 }
 
-.specials-description {
+.specials-description,
+.address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-.activity {
-}
+/* Стили активностей */
 
 .activity-heading {
   font-weight: 700;
@@ -68,6 +69,9 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Стили комманды */
+
+.team,
 .team-list {
   font-weight: 500;
   font-size: 16px;
@@ -75,26 +79,21 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team-list-position {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+.position {
   color: #757575;
 }
 
-.address p,
-.header-list a {
-  font-style: normal;
-  color: #212121;
+/* Цвет при наведении, фокусе и цвет акцента */
+
+.list-item:hover,
+.list-item:focus,
+.accent-color {
+  color: #2196f3;
 }
 
-.connect-us,
-.address a {
-  color: #757575;
-  font-style: normal;
-}
+/* Стили кнопок */
 
-.pointer {
+.button {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -102,8 +101,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.portfolio {
-}
+/* Стили портфолио */
 
 .portfolio-heading {
   font-weight: 700;
