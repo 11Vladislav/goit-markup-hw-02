@@ -13,6 +13,10 @@ body {
 
 :root {
   --alt-text-color: #757575;
+  --dominant-color: #212121;
+  --accent-hover-color: #2196f3;
+  --footer-text-color: #ffffff;
+  --footer-background-color: #2f303a;
 }
 
 /* Логотип */
@@ -23,7 +27,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--dominant-color);
 }
 
 /* Стили навигации и баннера */
@@ -34,7 +38,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--dominant-color);
 }
 
 .hero-heading {
@@ -92,7 +96,7 @@ body {
 .contact-list:hover,
 .contact-list:focus,
 .accent-color {
-  color: #2196f3;
+  color: var(--accent-hover-color);
 }
 
 /* Стили кнопок */
@@ -108,11 +112,11 @@ body {
 /* Стили контактов */
 
 .footer {
-  background: #2f303a;
+  background: var(--footer-background-color);
 }
 
 .logo-footer {
-  color: #ffffff;
+  color: var(--footer-text-color);
 }
 
 .address {
@@ -120,7 +124,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footer-text-color);
 }
 
 .contact-list {
