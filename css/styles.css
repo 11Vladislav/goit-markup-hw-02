@@ -11,6 +11,10 @@ body {
   text-decoration: none;
 }
 
+:root {
+  --alt-text-color: #757575;
+}
+
 /* Логотип */
 
 .webstudio-logo {
@@ -57,7 +61,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--alt-text-color);
 }
 
 /* Стили активностей */
@@ -80,7 +84,7 @@ body {
 }
 
 .position {
-  color: #757575;
+  color: var(--alt-text-color);
 }
 
 /* Цвет при наведении, фокусе и цвет акцента */
@@ -114,5 +118,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--alt-text-color);
 }
