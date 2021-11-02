@@ -41,6 +41,10 @@ body {
   color: var(--dominant-color);
 }
 
+.header-list .list-item.current {
+  color: var(--accent-hover-color);
+}
+
 .hero-heading {
   font-weight: 900;
   font-size: 44px;
