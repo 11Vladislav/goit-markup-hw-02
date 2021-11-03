@@ -118,6 +118,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.hero-button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
 /* Стили контактов */
 
 .footer {
