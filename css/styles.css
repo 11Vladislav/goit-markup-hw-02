@@ -32,13 +32,17 @@ body {
 
 /* Стили навигации и баннера */
 
-.header-list,
-.list-item {
+.header-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--dominant-color);
+}
+
+.list-item,
+.header-list {
+  color: var(--alt-text-color);
 }
 
 .header-list .list-item.current {
@@ -81,7 +85,6 @@ body {
 
 /* Стили комманды */
 
-.team,
 .team-list {
   font-weight: 500;
   font-size: 16px;
@@ -90,6 +93,7 @@ body {
 }
 
 .position {
+  font-weight: 400;
   color: var(--alt-text-color);
 }
 
@@ -109,6 +113,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
