@@ -107,6 +107,12 @@ body {
   color: var(--accent-hover-color);
 }
 
+.button:hover,
+.button:focus {
+  color: var(--footer-text-color);
+  background-color: var(--accent-hover-color);
+}
+
 /* Стили кнопок */
 
 .button {
