@@ -32,7 +32,8 @@ body {
 
 /* Стили навигации и баннера */
 
-.header-list {
+.header-list,
+.list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -40,8 +41,7 @@ body {
   color: var(--dominant-color);
 }
 
-.list-item,
-.header-list {
+.connect-link {
   color: var(--alt-text-color);
 }
 
