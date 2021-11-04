@@ -15,8 +15,8 @@ body {
   --alt-text-color: #757575;
   --dominant-color: #212121;
   --accent-hover-color: #2196f3;
-  --footer-text-color: #ffffff;
-  --footer-background-color: #2f303a;
+  --secondary-color: #ffffff;
+  --main-background-color: #2f303a;
 }
 
 /* Логотип */
@@ -45,6 +45,10 @@ body {
   color: var(--alt-text-color);
 }
 
+.hero {
+  background-color: var(--main-background-color);
+}
+
 .header-list .list-item.current {
   color: var(--accent-hover-color);
 }
@@ -52,9 +56,11 @@ body {
 .hero-heading {
   font-weight: 900;
   font-size: 44px;
+  text-align: center;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 /* Стили особенностей */
@@ -109,7 +115,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--footer-text-color);
+  color: var(--secondary-color);
   background-color: var(--accent-hover-color);
 }
 
@@ -131,12 +137,14 @@ body {
   font-family: inherit;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  background-color: var(--accent-hover-color);
+  color: var(--secondary-color);
 }
 
 /* Стили контактов */
 
 .footer {
-  background: var(--footer-background-color);
+  background: var(--main-background-color);
 }
 
 .logo-footer {
@@ -148,7 +156,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--footer-text-color);
+  color: var(--secondary-color);
 }
 
 .contact-list {
