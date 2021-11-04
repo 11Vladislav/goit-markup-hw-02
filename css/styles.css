@@ -148,7 +148,7 @@ body {
 }
 
 .logo-footer {
-  color: var(--footer-text-color);
+  color: var(--secondary-color);
 }
 
 .address {
